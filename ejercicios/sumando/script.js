@@ -15,4 +15,4 @@ do {
    contador++;
    num += newNum;
 } while (num <= 50);
-console.log(`El programa finalizo correctamente: \nEl total acumulado es ${num} e ingreso ${contador} numeros`);
+console.log(`El programa finalizo correctamente: \nEl total acumulado es ${num} e ingreso ${contador} numero(s)`);
