@@ -21,12 +21,11 @@ console.log(person.name);
 console.log(person["name"]);
 
 // para recorrer los keys del objeto se usa un for in, el for of no se puede utilizar ya que dice que el objeto no es iterable, como si lo es un array
-
 for(const key in person){
    console.log(person[key]);
 }
 
-// este es el caso en el que podemos usar for of, ya que estamos apuntando directamente al array y no al objeto, por ello nos arroja error
+// este es el caso en el que podemos usar for of, ya que estamos apuntando directamente al array y no al objeto, por ello no nos arroja error
 for(const son of person.sons){
    console.log(son)
 }
