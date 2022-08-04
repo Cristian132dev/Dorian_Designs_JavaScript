@@ -9,7 +9,7 @@ const letras = ["T", "R", "W", "A", "G", "M", "P", "X", "B", "N", "J", "Z", "S",
 do {
    dni = prompt("digite su DNI")
 }
-while (dni.length <= 7 || dni <= 0) 
+while (dni.length <= 7 || dni <= 0)
 
 dni %= 23
 

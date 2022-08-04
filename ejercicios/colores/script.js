@@ -13,5 +13,5 @@ while(color_usuario == ""){
 if (colores.includes(color_usuario)) {
    alert("Su color si se encuentra en nuestra base de datos")
 } else {
-   alert("lo sentimos, color si se encuentra en nuestra base de datos :(")
+   alert("lo sentimos, color no se encuentra en nuestra base de datos :(")
 }

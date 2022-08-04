@@ -11,8 +11,8 @@
 let contador = 0, num = 0;
 
 do {
-   newNum = parseInt(prompt("ingrese una cifra"));
+   let newNum = parseInt(prompt("ingrese una cifra"));
    contador++;
    num += newNum;
-} while (num <= 50);
+} while (num < 50);
 console.log(`El programa finalizo correctamente: \nEl total acumulado es ${num} e ingreso ${contador} numero(s)`);

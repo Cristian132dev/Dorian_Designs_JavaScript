@@ -6,6 +6,7 @@
 */
 
 let pregunta = parseInt(prompt("Que area desea hallar??\n 1 - Triangulo \n 2 - Rectangulo \n 3 - Circulo"));
+
 let base, altura, radio = "";
 
 

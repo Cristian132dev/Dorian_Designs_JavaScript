@@ -5,8 +5,8 @@
    - el array de pares e impares
 */
 
-let numeros = [21, 44, 87, 79, 12], pares = [], impares = [];
-let min = 1, max = 1, random, resultado;
+let numeros = [3, 43, 21, 20, 56], pares = [], impares = [];
+let min = 1, max = 10, random, resultado;
 
 
 for (let i of numeros) {

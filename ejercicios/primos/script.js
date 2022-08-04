@@ -1,6 +1,6 @@
 /*
    Escribe un programa que pida un numero entero mayor que 1 y que escriba si el numero es primo o no
-      un numero primo es aquel que solo es divisible por si mismo y la unidad
+   un numero primo es aquel que solo es divisible por si mismo y la unidad
 */
 
 let num = parseFloat(prompt("Digite un numero que no sea: \n - El numero 1 \n - Un numero decimal"));
