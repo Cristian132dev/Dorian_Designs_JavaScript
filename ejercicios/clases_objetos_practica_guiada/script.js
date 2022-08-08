@@ -7,7 +7,7 @@
    * validar que los campos no se introduzcan vacios
    * validar que el año sea un numero y que tenga 4 digitos
    * validar que el genero sea: aventura, terror o fantasia
-   crea una funcion que muestre los autores ordenados alfabeticamente
+   * crea una funcion que muestre los autores ordenados alfabeticamente
    * crea una funcion que pida un genero y muestre la informacion de los libros que pertenezcan a ese genero usando el metodo que devuelve la informacion
 */
 
@@ -32,7 +32,6 @@ let libroPrueba2 = new Libro("minecraft", "notch", 2009, "VideoJuegos");
 let libroPrueba3 = new Libro("outlast", "Biblia", 2013, "terror");
 const libros = [libroPrueba1, libroPrueba2, libroPrueba3]
 let libroPrueba = prompt(("titulo"), prompt("autor"), parseInt(prompt("año")), prompt("genero"));
-let num = "2004"
 */
 const libros = []
 
@@ -59,15 +58,15 @@ for (let i = 0; i < 3; i++) {
    }
 }
 
-// funcion que ordena los autores, para ello se debe crear un array que los guarde para poder ordenarlos
+// funcion que ordena los autores, para ello cree un array que los guarde para poder ordenarlos
 function ordenarAutores() {
-   let librosParaOrdenar = [];
+   let autoresParaOrdenar = [];
 
    for (let i = 0; i < libros.length; i++) {
-      librosParaOrdenar.push(libros[i].autor)
+      autoresParaOrdenar.push(libros[i].autor)
    }
 
-   console.log(librosParaOrdenar.sort())
+   console.log(autoresParaOrdenar.sort())
 }
 ordenarAutores()
 
