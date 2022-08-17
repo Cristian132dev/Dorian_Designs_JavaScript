@@ -10,7 +10,7 @@ console.log(word.split(""));
 // una funcion dentro de un objeto se llaman metodos
 // una funcion que ejecuta otra funcion se llaman callbacks
 
-// .sort([callback]) - ordena los elementos de un array alfabeticamente por su valor unicode, si le pasamos un callbacj los ordena en funcion al algoritmo que le pasemos
+// .sort([callback]) - ordena los elementos de un array alfabeticamente por su valor unicode, si le pasamos un callback los ordena en funcion al algoritmo que le pasemos
 
 const letters = ["b", "c", "z", "a"]
 const numbers = [1, 8, 100, 300, 3]
@@ -34,9 +34,9 @@ for (const number of numbers) {
    console.log(`${number} esta en la posicion ${numbers.indexOf(number)}`)
 }
 
-// .some(callback) - comprueba si al menos uno de los elementos del array cumple la condicion
+// .some(callback) - comprueba si al menos uno de los elementos del array cumple la condicion, devuelve un valor booleano
 
-// every(callback) - comprueba si todos los elementos del array cumplen la condicion
+// every(callback) - comprueba si todos los elementos del array cumplen la condicion, devuelve un valor booleano
 
 const words = ["HTML", "CSS", "JavaScript", "PHP"]
 
