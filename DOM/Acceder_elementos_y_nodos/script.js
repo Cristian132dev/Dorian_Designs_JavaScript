@@ -31,9 +31,10 @@ const paragraphsSpread = [...document.querySelectorAll(".paragraph")]
 // esta manera es la mas recomendada por temas de compatibilidad
 const paragraphsArray = Array.from(document.querySelectorAll(".paragraph"))
 
-// aqui no se cambia el css, solo es para no complicarnos aun
+// aqui no se edita el css, solo es para no complicarnos aun
 paragraphs[0].style.color = "red"
 
+// recorre cada elemento del ahora nuevo array y selecciona la etiqueta "p" y le cambia el color a verde
 paragraphsArray.map((p) => p.style.color = "green")
 
 console.log(paragraphs)

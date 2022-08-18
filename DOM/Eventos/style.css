@@ -1,0 +1,23 @@
+a,
+button {
+   display: block;
+   font-size: 2rem;
+}
+
+.box {
+   width: 60vw;
+   height: 40vh;
+   border: 1px solid black;
+   border-radius: 15px;
+   margin: 10px;
+}
+
+.mouseEnter {
+   background-color: rgb(255, 0, 0);
+   box-shadow: inset 5px 5px 10px rgb(139, 0, 0);
+}
+
+.mouseLeave {
+   background-color: rgb(245, 245, 245);
+   box-shadow: inset 5px 5px 10px rgb(117, 117, 117);
+}
