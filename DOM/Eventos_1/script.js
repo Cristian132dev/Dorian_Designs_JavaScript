@@ -30,7 +30,7 @@ button.addEventListener("dblclick", () => {
 })
 
 
-// cambiar los colores ya vemos que no se hace desde javascript, sino que se crea una clase en css y la aplicamos desde aqui, asi nuestro codigo se ve limpio con cada cosa en su lugar   
+// cambiar los colores ya vemos que no se hace desde javascript, sino que se crea una clase en css y la aplicamos desde aqui, asi nuestro codigo se ve limpio con cada cosa en su lugar
 box.addEventListener("mouseenter", () => {
    box.classList.replace("mouseLeave", "mouseEnter")
 })
@@ -49,16 +49,18 @@ box.addEventListener("mousemove", () => {
 })
 
 
-input.addEventListener("keydown", () => {
-   console.log("Pulsaste una tecla")
+input.addEventListener("keydown", (e) => {
+   if (e.code == "Enter") {
+      alert("Pulsaste el Enter")
+   }
 })
-
-input.addEventListener("keyup", () => {
+console.log(button)
+/* input.addEventListener("keyup", () => {
    console.log("dejaste de pulsar una tecla")
 })
 
 input.addEventListener("keypress", () => {
    console.log("estas manteniendo una tecla")
 })
-
+ */
 
