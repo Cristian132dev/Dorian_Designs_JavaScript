@@ -15,6 +15,8 @@ console.log(inputName.getAttribute("placeholder"))
 
 // el setAttribute cambia el valor del atributo que le pasemos
 inputName.setAttribute("placeholder", "te hackiamos perro")
+// es lo mismo que poner inputName.value = "", pero el set attribute esta diseñado para eso especificamente
+
 
 
 /*

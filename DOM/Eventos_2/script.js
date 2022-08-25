@@ -9,7 +9,7 @@ input.addEventListener("keyup", (e) => {
 
 // se puede escuchar eventos sin necesidad de estar apuntandole a algo, pero en realidad es que se le aputa a window, que es la interfaz que alberga al dom
 
-//* alert() == window.alert
+//* alert() == window.alert()
 
 addEventListener("click", (e) => {
    console.log(e.key)
@@ -33,7 +33,7 @@ link.addEventListener("click", (e) => {
 
 // para forzar que el programa haga lo que queramos podemos hacerlo, poniendo el objeto y posterior el evento que queremos forzar que ejecute, incluso que pulse un boton desde otra funcion, mas que forzar, se simula el evento
 
-form.submit()
+//* form.submit()
 
 /* const gallery = document.getElementById("gallery")
 
@@ -43,3 +43,8 @@ gallery.addEventListener("click", (e) => {
       e.target.classList.toggle("clickeado")
    }
 }) */
+const send = () =>{
+   form.submit()
+   console.log("enviao")
+}
+
