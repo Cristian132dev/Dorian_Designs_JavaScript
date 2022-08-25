@@ -21,6 +21,7 @@ hasta el momento hemos visto:
     1. acceder a elementos y nodos
     2. Crear e insertar elementos
     3. modificar clases y elementos
+    4. DOM traversing (recorrer el DOM)
 11. Eventos
 
 y varios ejercicios para practicar!!

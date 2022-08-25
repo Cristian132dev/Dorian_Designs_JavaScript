@@ -64,3 +64,4 @@ for(const day of days){
 }
 
 selectDays.appendChild(fragment2)
+console.log(selectDays);
