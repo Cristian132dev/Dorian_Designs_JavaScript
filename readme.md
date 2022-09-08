@@ -20,8 +20,10 @@ hasta el momento hemos visto:
 10. Document Object Model (DOM)
     1. acceder a elementos y nodos
     2. Crear e insertar elementos
-    3. modificar clases y elementos
+    3. Modificar clases y elementos
     4. DOM traversing (recorrer el DOM)
+    5. Clonar elementos
+    6. Eliminar elementos
 11. Eventos
 
 y varios ejercicios para practicar!!
